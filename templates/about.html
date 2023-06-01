@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: orchid;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>WELCOME TO ABOUT PAGE</h1>
+
+        <marquee behavior="scroll" width="60%" scrollamount="20">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa blanditiis alias eaque labore officia veniam aut amet, inventore voluptatem culpa!
+            </p>
+        </marquee>
+
+        <h2><a href="{% url 'app1:home' %}">navigate to home page</a></h2>
+        <h2><a href="{% url 'app3:contacts' %}">navigate to contacts page</a></h2>
+    </center>
+</body>
+</html>
